@@ -36,12 +36,11 @@ nav{
     left: 0;
     top: 0;
     z-index: 100;
-    box-shadow: 2px 2px 8px black;
 }
 
 #menu-icon{
     font-size: 3.6rem;
-    color: var(--text-color);
+    color: black;
     display: none;
 }
 
@@ -552,6 +551,8 @@ hr{
     }
 }
 
+
+
 @media (max-width: 768px) {
     #menu-icon{
         display: block;
@@ -562,8 +563,10 @@ hr{
         top: 100%;
         left: 0%;
         width: 100%;
+        gap: 3rem;
         padding: 1rem 3%;
-        background: var(--bg-color);
+        color: white;
+        background: gray;
         border-top: .1rem solid rgba(0, 0, 0, .2);
         box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
         display: none;
